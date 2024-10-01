@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <!-- Incluir Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <div class="flex justify-center items-center h-screen">
+        <div class="w-full max-w-md bg-white rounded-lg shadow-md p-6">
+            <h2 class="text-2xl font-bold text-center mb-6">Registro de Usuario</h2>
+            <form>
+                <!-- Nombre de Usuario -->
+                <div class="mb-4">
+                    <label for="username" class="block text-sm font-medium text-gray-700">Nombre de Usuario</label>
+                    <input type="text" id="username" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" placeholder="Introduce tu nombre de usuario">
+                </div>
+                <!-- Correo Electrónico -->
+                <div class="mb-4">
+                    <label for="email" class="block text-sm font-medium text-gray-700">Correo Electrónico</label>
+                    <input type="email" id="email" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" placeholder="Introduce tu correo electrónico">
+                </div>
+                <!-- Contraseña -->
+                <div class="mb-4">
+                    <label for="password" class="block text-sm font-medium text-gray-700">Contraseña</label>
+                    <input type="password" id="password" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" placeholder="Introduce tu contraseña">
+                </div>
+                <!-- Confirmar Contraseña -->
+                <div class="mb-4">
+                    <label for="confirm-password" class="block text-sm font-medium text-gray-700">Confirmar Contraseña</label>
+                    <input type="password" id="confirm-password" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" placeholder="Confirma tu contraseña">
+                </div>
+                <!-- Botón de Registro -->
+                <button type="submit" class="w-full bg-indigo-600 text-white font-bold py-2 px-4 rounded-md hover:bg-indigo-700">Registrarse</button>
+                <!-- Enlace para iniciar sesión -->
+                <div class="text-center mt-4">
+                    <p>¿Ya tienes una cuenta? <a href="login.html" class="text-indigo-600 hover:text-indigo-700 font-medium">Inicia sesión</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
